@@ -8,7 +8,7 @@
 
 OneMusic adalah aplikasi pemutar musik berbasis web dengan tampilan modern dan responsif. Dilengkapi dengan sinkronisasi lirik otomatis, antarmuka *glassmorphism*, dan animasi yang halus.
 
-[Demo Aplikasi](https://next-app-music.vercel.app/) · [Laporkan Issue](https://github.com/wannn-sion95/Web-Music/issues)
+[Demo Aplikasi](https://next-app-music.vercel.app/) · [Laporkan Issue](https://github.com/wannn-sion95/OneMusic/issues)
 
 ---
 
