@@ -1,13 +1,13 @@
 <div align="center">
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1DB954&height=200&section=header&text=OneMusic&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Your%20Ultimate%20Music%20Streaming%20Experience&descAlignY=62&descSize=20&descColor=b3b3b3" width="100%" alt="OneMusic Banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1DB954&height=200&section=header&text=OneMusic&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Your%20Ultimate%20Music%20Streaming%20Experience&descAlignY=62&descSize=20&descColor=1DB954" width="100%" alt="OneMusic Banner"/>
 </p>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Music-Streaming-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Music Streaming"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge&logo=github" alt="Status"></a>
-  <a href="#"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Status-Active-1DB954?style=for-the-badge&logo=github&logoColor=white" alt="Status"></a>
+  <a href="#"><img src="https://img.shields.io/badge/License-MIT-1DB954?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="License"></a>
 </p>
 
 
