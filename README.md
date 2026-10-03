@@ -3,89 +3,59 @@
 ![OneMusic Banner](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1DB954&height=180&section=header&text=OneMusic&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=45&desc=%20%20%20&descAlignY=68&descSize=16)
 ![Music](https://img.shields.io/badge/Music-Streaming-1DB954?style=for-the-badge&logo=spotify&logoColor=white)
   
-  <p>
-    A modern, premium web music player inspired by Spotify.<br>
-    Built with <strong>Next.js 16.1.1</strong>, <strong>Supabase</strong>, and <strong>Framer Motion</strong>.
-  </p>
+ # OneMusic
 
-  <p>
-    <a href="https://next-app-music.vercel.app/"><strong>View Live Demo</strong></a> · 
-    <a href="https://github.com/wannn-sion95/Web-Music/issues">Report Bug</a> · 
-    <a href="https://github.com/wannn-sion95/Web-Music/issues">Request Feature</a>
-  </p>
+> A Spotify-inspired web music player built with Next.js, Supabase, and Framer Motion.
 
-  <br />
+OneMusic adalah aplikasi pemutar musik berbasis web dengan tampilan modern dan responsif. Dilengkapi dengan sinkronisasi lirik otomatis, antarmuka *glassmorphism*, dan animasi yang halus.
 
-  <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+[Demo Aplikasi](https://next-app-music.vercel.app/) · [Laporkan Issue](https://github.com/wannn-sion95/Web-Music/issues)
 
-</div>
+---
 
-<br />
-
-## 📸 Screenshots
+## Tampilan Antarmuka
 
 <div align="center">
-<img width="578" height="770" alt="Image" src="https://github.com/user-attachments/assets/b40c1e6a-db0c-4970-a64e-fdca3af71bf5" />
-
-<div align="center">
-  <img width="1164" height="902" alt="Image" src="https://github.com/user-attachments/assets/77602984-1120-4518-9c81-1065b60bd560" />
+  <img src="https://github.com/user-attachments/assets/77602984-1120-4518-9c81-1065b60bd560" alt="OneMusic Desktop View" width="100%">
+  <br/><br/>
+  <img src="https://github.com/user-attachments/assets/b40c1e6a-db0c-4970-a64e-fdca3af71bf5" alt="OneMusic Mobile View" width="320">
 </div>
 
-<br />
+---
 
-## ✨ Key Features
+## Fitur Utama
 
-* **🎧 Cloud Streaming:** Music data managed dynamically via **Supabase (PostgreSQL)**.
-* **📱 Fully Responsive:** Optimized layout for both Desktop (Sidebar view) and Mobile (Full-screen player).
-* **🎤 Auto-Scrolling Lyrics:** Real-time synchronized lyrics (`.lrc`) with smooth scrolling active states.
-* **💅 Glassmorphism UI:** Modern, clean, and dark-themed interface using Tailwind CSS.
-* **⚡ Smooth Animations:** Powered by **Framer Motion** for seamless transitions between cover art and lyrics.
-* **🎛️ Full Controls:** Play, Pause, Next, Prev, Shuffle, Repeat, and Volume Control.
+- **Cloud Music Streaming:** Pengelolaan data lagu dan audio secara dinamis menggunakan Supabase (PostgreSQL).
+- **Auto-Scrolling Synchronized Lyrics:** Fitur lirik terintegrasi (`.lrc`) dengan indikator waktu aktif dan pergerakan layar otomatis.
+- **Modern Glassmorphism UI:** Antarmuka bertema gelap (*dark mode*) yang bersih memanfaatkan keunggulan Tailwind CSS.
+- **Fluid Animations:** Animasi transisi yang mulus antara *cover art* dan tampilan lirik menggunakan Framer Motion.
+- **Playback Controls:** Fitur kontrol lengkap mencakup *Play/Pause*, *Next/Prev*, *Shuffle*, *Repeat*, hingga *Volume Control*.
+- **Adaptive Layout:** Pengalaman antarmuka yang dioptimalkan untuk tampilan Desktop (*Sidebar layout*) maupun Mobile (*Full-screen player*).
 
-<br />
+---
 
-## 🚀 Getting Started
+## Tech Stack
 
-Follow these steps to run the project locally.
+- **Framework:** Next.js 16
+- **Language:** TypeScript
+- **Database & Storage:** Supabase (PostgreSQL)
+- **Styling:** Tailwind CSS
+- **Animation:** Framer Motion
+- **Deployment:** Vercel
 
-### Prerequisites
+---
 
-* Node.js (v16 or higher)
-* npm / yarn
+## Panduan Instalasi
 
-### Installation
+### Prasyarat
 
-1.  **Clone the repository**
-    ```bash
-    git clone [https://github.com/wannn-sion95/Web-Music.git](https://github.com/wannn-sion95/Web-Music.git)
-    cd Web-Music
-    ```
+Pastikan perangkat Anda sudah terpasang:
+- Node.js (v18 atau lebih baru)
+- npm / yarn / pnpm
 
-2.  **Install dependencies**
-    ```bash
-    npm install
-    ```
+### Langkah-Langkah
 
-3.  **Setup Environment Variables**
-    Create a `.env.local` file in the root directory and add your Supabase credentials:
-    ```env
-    NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-    ```
-
-4.  **Run the development server**
-    ```bash
-    npm run dev
-    ```
-
-5.  Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-<br/>
-
-6.  ## Thank You
-
+1. **Clone repository:**
+   ```bash
+   git clone [https://github.com/wannn-sion95/Web-Music.git](https://github.com/wannn-sion95/Web-Music.git)
+   cd Web-Music
