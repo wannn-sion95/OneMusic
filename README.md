@@ -10,15 +10,6 @@
   <a href="#"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License"></a>
 </p>
 
-<p align="center">
-  <a href="#features">Features</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#demo">Demo</a> •
-  <a href="#contact">Contact</a>
-</p>
-
----
-  
 
 > A Spotify-inspired web music player built with Next.js, Supabase, and Framer Motion.
 
